@@ -6,7 +6,7 @@ import { routerMiddleware, createReduxHistory } from './history';
 export const store = applyMiddleware(routerMiddleware)(createStore)(combinedReducer);
 
 // store 传进去返回一个新的history
-export const history = createReduxHistory(store);
+export const history = createReduxHistory(store); // reduxHistory 次history称为redux版本的history，因为原始的history 操作的可能是 window.history,也可能是hash，但是ITA操作的是store
 
 // 方便看
 window.store = store;

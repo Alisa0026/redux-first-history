@@ -1,5 +1,5 @@
 import { createBrowserHistory } from 'history';
-import { createReduxHistoryContext } from "redux-first-history";
+import { createReduxHistoryContext } from "../redux-first-history";
 // 先创建history
 const history = createBrowserHistory();
 // 把 history 传入 createReduxHistoryContext，返回一个对象，进行解构
