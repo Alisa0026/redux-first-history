@@ -7,3 +7,7 @@
 2. 可以通过派发动作的方式跳转路径
   - actions 中的 push派发
   - 中间件 middleware 接收,判断actions类型进行跳转
+
+这个库名字老变，之前是
+connected-react-router： 支持 react-router v4/v5 不支持v6
+redux-first-history: 支持 react-router v6
